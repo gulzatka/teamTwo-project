@@ -55,7 +55,7 @@ li i:hover{
 /* Main Starts Here */
 .wrapper-main{
     /* border: 2px solid yellow; */
-    width: 87%;
+    width: 90%;
     box-shadow: 5px 5px whitesmoke;
     margin-left: 10px;
 }
@@ -129,8 +129,12 @@ li i:hover{
 #img1{
     margin-left: 15px;
 }
+#img2{
+    height: 150px;
+}
 .article-btn{
     margin-left: 15px;
+    margin-bottom: 20px;
     padding: 10px;
 }
 .article-btn button{
@@ -246,7 +250,7 @@ li i:hover{
 /* Sidebar Left */
 .aside-left{
     /* border: 2px solid green; */
-    width: 70%;
+    width: 100%;
     box-shadow: 5px 5px whitesmoke;
 }
 .aside-left section{
