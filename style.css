@@ -1,0 +1,319 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 50%;
+}
+/* Header Starts Here */
+nav{
+    /* border: 2px solid red; */
+    height: 50px;
+    background-color: black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav i{
+    color: white;
+}
+nav li{
+    display: inline-block;
+    padding: 15px;
+}
+nav li:hover {
+    background-color: #fff;
+}
+li i:hover{
+    color: black;
+}
+.team {
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+}
+.team:hover{
+    background-color: grey;
+}
+.team i{
+    color: black;
+}
+/* ------ Header Ends----- */
+/* All wrapped in one Div.Container Starts Here*/
+.container{
+    display: flex;
+}
+
+/* Main Starts Here */
+.wrapper-main{
+    /* border: 2px solid yellow; */
+    width: 87%;
+    box-shadow: 5px 5px whitesmoke;
+    margin-left: 10px;
+}
+/* Post-block */
+.wrapper-main .post{
+    /* border: 2px solid brown; */
+    display: block;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgb(184, 182, 182);
+    background-color: white;
+}
+.post input{
+    display: block;
+    padding: 15px;
+    width: 95%;
+    margin: auto;
+}
+.post button{
+    padding: 10px;
+    margin: 5px;
+    width: 10%;
+    margin-left: 8px;
+    color: white;
+    background-color: teal;
+    border: none;
+}
+.post button i{
+    margin-right: 5px;
+}
+/* ----- Post Block Ends ----- */
+
+/*  Article starts */
+.article-one{
+    background-color: white;
+    /* border: 2px solid greenyellow; */
+    margin-top: 15px;
+}
+.article-name{
+    display: flex;
+    position: relative;
+    padding: 15px;
+
+}
+.article-name img{
+    width: 5%;
+    border-radius: 50%;
+    margin: 15px;
+}
+.article-name h3{
+    margin-top: 30px
+}
+.article-name p{
+    position: absolute;
+    right: 2%;
+    margin-top: 30px
+}
+.article-hr{
+    width: 97%;
+}
+.article-text p{
+    padding: 5px 20px;
+}
+.article-image{
+    display: inline-block;
+    /* align-items: center; */
+}
+.article-image img{
+    width: 47%;
+    margin: 5px;
+}
+#img1{
+    margin-left: 15px;
+}
+.article-btn{
+    margin-left: 15px;
+    padding: 10px;
+}
+.article-btn button{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+.article-btn button:hover{
+    background-color: grey;
+}
+.article-btn button i{
+    margin-right: 10px;
+}
+#aimana{
+    display: block;
+    width: 100%;
+}
+#aimana img{
+    width: 95%;
+    margin-left: 15px;
+}
+#multi{
+    display: flex;
+    margin-left: 5%;
+}
+.main-image{
+    width: 58%;
+    margin: 10px;
+}
+.main-image img{
+    width: 100%;
+}
+.multi-image{
+    /* border:2px solid red; */
+    width: 40%;
+    margin: 10px;
+}
+.multi-image img{
+    width: 100%;
+}
+#video{
+    width: 100%;
+}
+.article-image iframe{
+    width: 90%;
+    margin-left: 5%;
+}
+/* Aside-Right */
+.aside-right{
+    width: 50%;
+}
+.aside-right img{
+    width: 100%;
+}
+.aside-right section{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+.info{
+    background-color: black;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.info:hover{
+    background-color: yellow;
+    color: black;
+}
+.friends-btn i{
+    display: inline-block;
+    width: 70px;
+    padding: 10px;
+}
+.fa-check{
+    background-color: green;
+}
+.fa-times{
+    background-color: red;
+}
+.fa-bug{
+    font-size: 30px;
+    color: black;
+}
+
+/* Footer Starts */
+.footer-1{
+    background-color: yellow;
+    color: black;
+    height: 40px;
+    margin: 0;
+    padding: 30px 0 10px 20px;
+    font-size: 20px;
+}
+.footer-2{
+    background-color:  black;
+    color: white;
+    height: 20px;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+}
+.footer-2 a{
+    text-decoration: underline;
+    color: yellow;
+}
+/* Footer Ends */
+/* Sidebar Left */
+.aside-left{
+    /* border: 2px solid green; */
+    width: 70%;
+    box-shadow: 5px 5px whitesmoke;
+}
+.aside-left section{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px 20px;
+    margin: 20px;
+    /* text-align: center; */
+    border-radius: 5px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 50%;
+    border-radius: 50%;
+}
+.profile-list ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.profile-list ul li{
+    display: block;
+    padding: 10px;
+}
+.profile-list ul li i{
+    padding: 5px;
+}
+.my-groups h3, .my-events h3, .my-photos h3{
+    background-color: cornflowerblue;
+}
+.my-photos{
+    display: inline-block;
+    flex-wrap: wrap;
+}
+.my-photos img{
+    width: 35%;
+    margin: 10px;
+}
+.interests ul{
+    list-style: none;
+    padding: 0;
+}
+.interests ul li{
+    display: inline-block;
+    background-color: skyblue;
+    margin: 2px;
+    font-size: 14px;
+    padding: 2px;
+}
+#hey-section{
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+     padding: 0;
+     margin: 20px; 
+    /* text-align: center; */
+    /* border-radius: 5px; */
+}
+.hey{
+    background-color: slategrey;
+    margin: 0;
+    position: relative;
+}
+.hey i{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+    background-color: gray;
+}
+/* ----- Sidebar Left End----- */

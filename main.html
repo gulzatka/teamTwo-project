@@ -2,63 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta charset="utf-8"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Social NetWork</title>
 </head>
 <body>
-    <div class="container">
         <header>
           <nav>
               <ul>
-                <a href=""><li><i class="fas fa-home">Seytech</i></li></a>
-                <a href=""><li><i class="fas fa-home">Seytech</i></li></a>
-                <a href=""><li><i class="fas fa-home">Seytech</i></li></a>
-                <a href=""><li><i class="fas fa-home">Seytech</i></li></a>
+                <li class="team"><a href="#"><i class="fas fa-home">Team#2</i></a></li>
+                <li><a href="#"><i class="fas fa-globe-americas"></i></a></li>
+                <li><a href="#"><i class="fas fa-user"></i></a></li>
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
               </ul>
+            
           </nav>
         </header>
+        <div class="container">
         <aside class="aside-left">
-            <section class="avatar">
+            <section>
                 <div class="profile">
                     <h3>My Profile</h3>
-                    <figure>
-                        <img src="https://picsum.photos/200/300" alt="profile picture">
-                    </figure>
-                </div>  
+                    <img src="https://pbs.twimg.com/profile_images/556094075149885440/TyTAOUKv.png" alt="">
+                </div>
                 <hr>
                 <div class="profile-list">
                     <ul>
-                        <li><i class="fas fa-pen"></i>Software Developer</li>
-                        <li><i class="fas fa-home"></i>USA</li>
+                        <li><i class="fas fa-pen"></i> Software Developer</li>
+                        <li><i class="fas fa-home"> </i> USA</li>
                         <li><i class="fas fa-birthday-cake"></i> August,18</li>
                     </ul>
                 </div>
             </section>
-            <section class="extras">
+            <section>
                 <div class="my-groups">
-                    <div>
-                        <a href=""><i class="fas fa-circle-notch"></i>My Groups</a>
-                    </div>
-                    <p>Some text...</p> 
+                   <h3><a href=""><i class="fas fa-circle-notch"></i>My Groups</a> </h3> 
+                   <p>Some text...</p> 
                 </div>  
                 <div class="my-events">
-                    <div><a href=""><i class="fas fa-circle-notch"></i>My Events</a></div> 
+                    <h3><a href=""><i class="fas fa-circle-notch"></i>My Events</a></h3> 
                    <p>Some other text...</p>
                 </div>
-                <div class="my-photos">
-                    <div class="blue-bar"><a href=""><i class="fas fa-circle-notch"></i>My Photos</a></div>
-                    <figure>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                       <div class="pics"><img src="https://picsum.photos/200/300" alt=""></div>
-                    </figure>
+                <div class="my-photos">  
+                   <h3><a href=""><i class="fas fa-circle-notch"></i>My Photos</a></h3> 
+                   <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                   <img src="https://images.pexels.com/photos/3900437/pexels-photo-3900437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                   <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                   <img src="https://images.pexels.com/photos/3900437/pexels-photo-3900437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                   <img src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
+                   <img src="https://images.pexels.com/photos/3900437/pexels-photo-3900437.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="">
                 </div>
             </section>
             <section>
@@ -79,7 +73,7 @@
                     </ul>
                 </div>
             </section>
-            <section>
+            <section id="hey-section">
                 <div class="hey">
                     <h4>Hey!</h4> <i class="fas fa-times"></i>
                     <p>People are looking at your profile. Find out who.</p>
@@ -87,70 +81,138 @@
             </section>
         </aside>
         <main>
-            <article>
-                <div class="post">
-                    <input type="text" placeholder="Status:Feeling Blue">
-                    <input class="submit"><i class="fas fa-pen"></i>Post</input>
-                </div>
-            </article>
-            <article>
-                <div class=" article-name">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <h3>Rachel Sine</h3>
-                    <p>1 min</p>
-                </div>
-                <div class="article-text">
-                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                </div>
-                <div class="article-image">
-                    <img src="https://picsum.photos/200/300" alt="">
-                    <img src="https://picsum.photos/200/300" alt="">
-                </div>
-                <div class="article-btn">
-                    <a href=""><i class="far fa-thumbs-up"></i>Like</a>
-                    <a href=""><i class="fas fa-comment"></i>Comments</a>  
-                </div>
-            </article>
-            <article>
-                <div class=" article-name">
-                    <img src="#" alt="">
-                    <h3>Rachel Sine</h3>
-                    <p>1 min</p>
-                </div>
-                <div class="article-text">
-                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                </div>
-                <div class="article-btn">
-                    <a href=""><i class="far fa-thumbs-up"></i>Like</a>
-                    <a href=""><i class="fas fa-comment"></i>Comments</a>  
-                </div>
-            </article>
-            <article>
-                <div class=" article-name">
-                    <img src="#" alt="">
-                    <h3>Rachel Sine</h3>
-                    <p>1 min</p>
-                </div>
-                <div class="article-text">
-                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                </div>
-                <div class="article-image">
-                    <img src="https://picsum.photos/200/300" alt="">
-                </div>
-                <div class="article-text">
-                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                </div>
-                <div class="article-btn">
-                    <a href=""><i class="far fa-thumbs-up"></i>Like</a>
-                    <a href=""><i class="fas fa-comment"></i>Comments</a>  
-                </div>
-            </article>
+            <div class="wrapper-main">
+                <article>
+                    <div class="post">
+                        <input type="text" placeholder="Status:Feeling Blue">
+                        <button><i class="fas fa-pen"></i>Post</button>
+                    </div>
+                </article>
+                <article class="article-one">
+                    <div class=" article-name">
+                        <img src="https://i0.wp.com/www.gadgetclock.com/wp-content/uploads/2021/03/b725125aaebafbcbf2fb3886a55d2d6f.jpg?resize=725%2C1024&ssl=1" alt="">
+                        <h3>Nurzat Karypbekova</h3>
+                        <p>1 min</p>
+                    </div>
+                    <hr class="article-hr">
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div class="article-image">
+                        <img id="img1"src="https://www.castlegarnews.com/wp-content/uploads/2020/04/21333414_web1_200420-CRM-earth-day-EARTHDAY_1.jpg" alt="">
+                        <img src="https://www.almanac.com/sites/default/files/styles/opengraph/public/image_nodes/dahlia-3598551_1920.jpg?itok=0aPA95dj" alt="">
+                    </div>
+                    <div class="article-btn">
+                        <button><i class="far fa-thumbs-up"></i>Like</button>
+                        <button><i class="fas fa-comment"></i>Comments</button>  
+                    </div>
+                </article>
+                <article class="article-one">
+                    <div class=" article-name">
+                        <img src="https://i.pinimg.com/originals/55/cd/50/55cd5076f900df238572a4d2079d1e61.jpg" alt="">
+                        <h3>Aktan Abdygaziev</h3>
+                        <p>16 min</p>
+                    </div>
+                    <hr class="article-hr">
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div class="article-btn">
+                        <button><i class="far fa-thumbs-up"></i>Like</button>
+                        <button><i class="fas fa-comment"></i>Comments</button>  
+                    </div>
+                </article>
+                <article  class="article-one">
+                    <div class=" article-name">
+                        <img src="https://i.pinimg.com/736x/d4/79/23/d479233a82bd58e06359b8f770c4d3db.jpg" alt="">
+                        <h3>Aimana Tazhibaeva</h3>
+                        <p>32 min</p>
+                    </div>
+                    <hr class="article-hr">
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div id="aimana" class="article-image">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Shaqi_jrvej.jpg" alt="">
+                    </div>
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div class="article-btn">
+                        <button><i class="far fa-thumbs-up"></i>Like</button>
+                        <button><i class="fas fa-comment"></i>Comments</button>  
+                    </div>
+                    </article>
+                    <article class="article-one">
+                        <div class=" article-name">
+                            <img src="https://i0.wp.com/www.gadgetclock.com/wp-content/uploads/2021/03/b725125aaebafbcbf2fb3886a55d2d6f.jpg?resize=725%2C1024&ssl=1" alt="">
+                            <h3>Symbat Arstanbekova</h3>
+                            <p>48 min</p>
+                        </div>
+                        <hr class="article-hr">
+                        <div class="article-text">
+                            <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                        </div>
+                        <div id="video" class="article-image">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7LqAJoD-PpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="article-btn">
+                            <button><i class="far fa-thumbs-up"></i>Like</button>
+                            <button><i class="fas fa-comment"></i>Comments</button>  
+                        </div>
+                    </article>    
+                </article>
+                <article class="article-one">
+                    <div class=" article-name">
+                        <img src="https://i.pinimg.com/originals/55/cd/50/55cd5076f900df238572a4d2079d1e61.jpg" alt="">
+                        <h3>Gulzat Paizidin kyzy</h3>
+                        <p>58 min</p>
+                    </div>
+                    <hr class="article-hr">
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div class="article-btn">
+                        <button><i class="far fa-thumbs-up"></i>Like</button>
+                        <button><i class="fas fa-comment"></i>Comments</button>  
+                    </div>
+                </article>
+                <article  class="article-one">
+                    <div class=" article-name">
+                        <img src="https://i.pinimg.com/736x/d4/79/23/d479233a82bd58e06359b8f770c4d3db.jpg" alt="">
+                        <h3>Elya Zhusupova</h3>
+                        <p>1 hour</p>
+                    </div>
+                    <hr class="article-hr">
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div id="multi" class="article-image">
+                        <div class="main-image">
+                            <img src="https://www.2luxury2.com/wp-content/uploads/soneva-maldives.jpg" alt="">
+                        </div>
+                        <div class="multi-image">
+                            <img src="https://d1ix9yerv4y8lr.cloudfront.net/blog/wp-content/uploads/2020/10/GettyImages-950698398-750x375.jpg" alt="">
+                            <img src="https://images.indianexpress.com/2021/07/GettyImages-maldives-tourism-1200.jpg" alt="">
+                            <img src="https://static.toiimg.com/thumb/msid-84440826,width-748,height-499,resizemode=4,imgsize-133391/.jpg" alt="">
+                        </div>    
+                    </div>
+                    <div class="article-text">
+                        <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                    </div>
+                    <div class="article-btn">
+                        <button><i class="far fa-thumbs-up"></i>Like</button>
+                        <button><i class="fas fa-comment"></i>Comments</button>  
+                    </div>
+                    
+                </article>
+            </div>
         </main>
         <aside class="aside-right">
             <section>
                 <div class="upcoming-events">
                     <h3>Upcoming Events:</h3>
-                    <img src="https://picsum.photos/200/300" alt="">
+                    <img src="https://images.pexels.com/photos/3689532/pexels-photo-3689532.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
                     <p>React Course:</p>
                     <p>Friday 15:00</p>
                     <a href="#">Info</a>
@@ -159,8 +221,8 @@
             <section>
                 <div class="friends">
                     <h3>Friend Request</h3>
-                    <img src="https://picsum.photos" alt="">
-                    <p>Image</p>
+                    <img src="https://images.pexels.com/photos/3608263/pexels-photo-3608263.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                    <p>Panda</p>
                 </div>
                 <div class="friends-btn">
                     <button><i class="fas fa-check"></i></button>
@@ -178,12 +240,11 @@
                 </div>
             </section>  
         </aside>
-        <footer>
-            <h3>Footer</h3>
-            <div class="poweredby">
-                <h3>Powered by <a href="">TEAM#3</a></h3>
-            </div>
-        </footer>
     </div>
+    <footer>
+        <p class="footer-1">Footer</p>
+        <p class="footer-2">Powered by <a href="#">TEAM#2</a></p>
+    </footer>
+    
 </body>
 </html>
