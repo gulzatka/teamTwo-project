@@ -1,6 +1,6 @@
 # Social Network
 
-### example: 
+### Example: 
 https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/index.html
 
 ## Team members: 
