@@ -343,7 +343,7 @@ nav a:hover {
 }
 .photos img{
     width: 35%;
-    /* margin: 5px; */
+    margin: 5px;
     /* align-content: center; */
     
 }
@@ -426,53 +426,64 @@ nav a:hover {
     padding: 10px;
     margin: 10px;
 }
+@media screen and (max-width:414px){
+ .container{
+     display: block;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*nurzat*/
-/*.my-groups h3, .my-events h3, .my-photos h3{
-    background-color: cornflowerblue;
+ }   
+ .photos{
+     display: block;
+     padding: 10px;
+     
+ }
+ .photos img{
+     width: 90%;
+     margin-left: 10px;
+ }
+ #section-interests{
+     display: none;
+ }
+ #section-hey{
+     display: none;
+ }
+.article-one{
+    width: 95%;
 }
-.my-photos {
-    display: inline-block;
-    flex-wrap: wrap;
+.post {
+    width: 90%;
 }
-.my-photos img{
-    width: 35%;
-    margin: 10px;
+.post input{
+    width: 90%;
 }
-.interests ul{
-    list-style: none;
-    padding: 0;
+.article-image img{
+    width: 90%;
+    margin-left: 15px;
+    
 }
-.interests ul li{
-    display: inline-block;
-    background-color: skyblue;
-    margin: 2px;
-    font-size: 14px;
-    padding: 2px;
-}*/
-
-
-
-#hey-section{
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
-     padding: 0;
-     margin: 20px; 
-    /* text-align: center; */
-    /* border-radius: 5px; */
+#article-none{
+    display: none;
+}
+.aside-right  {
+width: 100%;
 }
 
-/* ----- Sidebar Left End----- */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
