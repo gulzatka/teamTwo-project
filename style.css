@@ -52,7 +52,7 @@ nav a:hover {
 
 /* Main Starts Here */
 .wrapper-main {
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 /* Post-block */
 .wrapper-main .post{
@@ -186,7 +186,7 @@ nav a:hover {
 /* Aside-Right */
 
 .aside-right{
-     width: 15%;
+     width: 20%;
      background-color: white;
  }
  .aside-right img{
@@ -268,7 +268,7 @@ nav a:hover {
 /* Sidebar Left */
 
 .aside-left {
-    flex-basis:100%;
+    flex-basis:28%;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -429,12 +429,10 @@ nav a:hover {
 @media screen and (max-width:414px){
  .container{
      display: block;
-
  }   
  .photos{
      display: block;
      padding: 10px;
-     
  }
  .photos img{
      width: 90%;
@@ -466,11 +464,37 @@ nav a:hover {
 .aside-right  {
 width: 100%;
 }
+}
+@media screen and (max-width:768px ) {
+    .aside-right {
+        display: inline-block;
+       width: 23%;
+       vertical-align: top;
 
-
+    }
+    .container {
+        display: block;
+    }
+    main {
+        display: inline-block;
+       width: 45%;
+    }
+    .aside-left {
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+    .article-image img {
+        width: 43%;
+    }
+    #article-none {
+        display: none;
+    }
+    .post input {
+        width: 90%;
+    }
 
 }
-
 
 
 
