@@ -1,8 +1,9 @@
-Social Network
+# Social Network
 
-example: https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/index.html
+### example: 
+https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/index.html
 
-Team members: 
+## Team members: 
  - Nurzat
  - Elya
  - Symbar
@@ -12,10 +13,10 @@ Team members:
 
  ___
 
- Tools Used:
+ ## Tools Used:
  - HTML & CSS
 
- Topics Covered:
+ ## Topics Covered:
  - Semantic Webpage
  - Responsive Web Design
  - Flex-Box
