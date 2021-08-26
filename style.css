@@ -55,12 +55,11 @@ nav a:hover {
 /* Post-block */
 
 .wrapper-main .article-post{
-<<<<<<< HEAD
-=======
+
     /* border: 2px solid brown; */
     margin-top: 24px;
     padding: 10px 0;
->>>>>>> ca6376d (colors and images fixe)
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
     margin: 10px;
@@ -372,10 +371,10 @@ nav a:hover {
 .photos {
     display: flex;
     justify-content: space-evenly;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
 
 }
 
@@ -493,7 +492,8 @@ nav a:hover {
     padding: 10px;
     margin: 10px;
 }
-<<<<<<< HEAD
+
+
 @media screen and (max-width:414px){
     .container{
         display: block;
@@ -538,8 +538,8 @@ nav a:hover {
     } 
 }
 
- @media (max-width:768px) and (min-width:415px) {
-=======
+@media (max-width:768px) and (min-width:415px) {
+
 
 @media only screen and (max-width: 414px) {
      .container {
@@ -591,7 +591,7 @@ nav a:hover {
 }
 
 @media only (max-width: 768px) and (min-width: 415px) {
->>>>>>> ca6376d (colors and images fixe)
+
     .aside-right {
         display: inline-block;
         width: 23%;
