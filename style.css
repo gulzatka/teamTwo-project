@@ -10,7 +10,7 @@ body {
 
 nav {
      height: 50px;
-     background-color: black;
+     background-color: #86BBBD;
      position: fixed;
      /*z-index: 1;*/
      top: 0;
@@ -27,18 +27,21 @@ nav a {
 }
 
 nav a:hover {
-     background-color: #fff;
-     color: black;
+     background-color: #6A6B83;
+     color: white;
 }
  .team {
-     background-color: yellow;
-     color: black;
+     background-color: #6A6B83;
+     color: white;
      font-size: 18px;
  }
 
 .team i{
-     color: black;
+     color: white;
      margin: 0;
+ }
+ .team:hover{
+background-color: #76949F;
  }
  
 
@@ -201,7 +204,7 @@ nav a:hover {
      border-radius: 5px;
  }
  .btn-info{
-     background-color: black;
+     background-color: #86BBBD;
      color: white;
      margin: 10px;
      padding: 10px;
@@ -211,8 +214,7 @@ nav a:hover {
      font-size: 18px;
  }
  .btn-info:hover{
-     background-color: yellow;
-     color: black;
+     background-color: #6A6B83;
  }
  .friends-btn{
     display: flex;
@@ -226,7 +228,7 @@ nav a:hover {
      color: white;
  }
  .check{
-     background-color: green;
+     background-color:green;
      padding: 10px 15px;
  }
  .check:hover,.cancel:hover{
@@ -243,15 +245,15 @@ nav a:hover {
 /* Footer Starts */
 
 .footer-1{
-     background-color: yellow;
-     color: black;
+     background-color:#86BBBD ;
+     color: white;
      height: 40px;
      margin: 0;
      padding: 30px 0 10px 20px;
      font-size: 20px;
  }
  .footer-2{
-     background-color:  black;
+     background-color: #76949F ;
      color: white;
      height: 20px;
      margin: 0;
@@ -260,7 +262,7 @@ nav a:hover {
  }
  .footer-2 a{
      text-decoration: underline;
-     color: yellow;
+     color: black;
  }
  
 /* Footer Ends */
