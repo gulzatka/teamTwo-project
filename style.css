@@ -27,27 +27,31 @@ nav a {
 }
 
 nav a:hover {
-     background-color: #6A6B83;
+     background-color: #5F506B;
      color: black;
 
 }
- .team {
+
+.team {
      background-color: #6A6B83;
      color: white;
      font-size: 18px;
- }
+}
 
 .team i{
      color: white;
      margin: 0;
- }
- .team i:hover{
+}
+ 
+.team i:hover {
     background-color: #76949F;
     color: black;
- }
- .team:hover{
+}
+
+.team:hover{
     background-color: #76949F;
  }
+
 .container { 
     margin-top: 50px;
     display: flex;
