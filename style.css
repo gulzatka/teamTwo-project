@@ -77,7 +77,7 @@ nav a:hover {
 }
 .article-post button{
     padding: 10px;
-    background-color: #86BBBD;
+    background-color: #6A6B83;
     color: white;
     border: none;
     margin-top: 10px;
@@ -87,7 +87,7 @@ nav a:hover {
     margin-right: 10px;
 }
 .article-post button:hover{
-    background-color: #6A6B83;
+    background-color: #86BBBD;
 }
 /* ----- Post Block Ends ----- */
 
@@ -151,12 +151,12 @@ nav a:hover {
 }
 .article-btn button{
     padding: 10px;
-    background-color: #86BBBD;
+    background-color: #6A6B83;
     color: white;
     border: none;
 }
 .article-btn button:hover{
-    background-color:#6A6B83;
+    background-color:#86BBBD;
 }
 .article-btn button i{
     margin-right: 10px;
@@ -201,13 +201,25 @@ nav a:hover {
    
 }
 .article-language ul li{
-    margin: 25px;
+    margin: 10px;
     width: 50%;
     font-size: 90px;
     text-align: center;
     padding: 10px;
     border: 2px solid #6A6B83;
-    color: rgb(98, 160, 157);
+    
+}
+.html5{
+    color: rgb(255, 140, 0);
+}
+.alt{
+    color: rgb(7, 177, 7);
+}
+.js{
+    color: red;
+}
+.react{
+    color: rgb(198, 34, 198);
 }
 .article-language ul li:hover{
     color: white;
@@ -538,59 +550,8 @@ nav a:hover {
     } 
 }
 
-@media (max-width:768px) and (min-width:415px) {
 
-
-@media only screen and (max-width: 414px) {
-     .container {
-         display: block;
-     }  
-
-     .photos{
-         display: block;
-         padding: 10px;
-     }
-
-     .photos img{
-         width: 90%;
-         margin-left: 10px;
-     }
-
-     #section-interests{
-         display: none;
-     }
-
-     #section-hey{
-         display: none;
-     }
-
-    .article-one{
-        width: 95%;
-    }
-
-    .post {
-        width: 90%;
-    }
-
-    .post input{
-        width: 90%;
-    }
-
-    .article-image img{
-        width: 90%;
-        margin-left: 15px;  
-    }
-
-    #article-none{
-        display: none;
-    }
-
-    .aside-right  {
-        width: 100%;
-    }
-}
-
-@media only (max-width: 768px) and (min-width: 415px) {
+@media only screen and (max-width: 768px) and (min-width: 415px) {
 
     .aside-right {
         display: inline-block;
