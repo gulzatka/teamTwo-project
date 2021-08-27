@@ -2,7 +2,8 @@
 
 ## Objective: 
 Build a responsive webpage based on the example. See the link below to compare. 
-
+## Our webpage:
+https://admiring-hodgkin-7611f3.netlify.app/
 
 ### Example: 
 https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/index.html
