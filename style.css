@@ -266,7 +266,7 @@ nav a:hover {
      background-color:green;
      padding: 10px 15px;
  }
- .check:hover .cancel:hover{
+ .check:hover,.cancel:hover{
      opacity: 0.5;
  }
  .cancel{
@@ -511,13 +511,8 @@ nav a:hover {
 }
 
 
-<<<<<<< HEAD
 @media screen and (max-width:600px){
     .container{
-=======
-@media only screen and (max-width: 650px) {
-    .container {
->>>>>>> 2285185 (fixed css syntax)
         display: block;
         
     } 
@@ -571,16 +566,13 @@ nav a:hover {
     }
 }
 
-<<<<<<< HEAD
 @media only screen and  (max-width: 768px) and (min-width: 601px) {
-=======
-@media only screen (max-width: 768px) and (min-width: 415px) {
->>>>>>> 2285185 (fixed css syntax)
 
     .aside-right {
         display: inline-block;
         width: 23%;
         vertical-align: top;
+
     }
     .container {
         display: block;
