@@ -27,22 +27,31 @@ nav a {
 }
 
 nav a:hover {
-     background-color: #6A6B83;
-     color: white;
+     background-color: #5F506B;
+     color: black;
+
 }
- .team {
+
+.team {
      background-color: #6A6B83;
      color: white;
      font-size: 18px;
- }
+}
 
 .team i{
      color: white;
      margin: 0;
- }
- .team:hover{
+}
+ 
+.team i:hover {
+    background-color: #76949F;
+    color: black;
+}
+
+.team:hover{
     background-color: #76949F;
  }
+
 .container { 
     margin-top: 50px;
     display: flex;
@@ -87,7 +96,12 @@ nav a:hover {
     margin-right: 10px;
 }
 .article-post button:hover{
+<<<<<<< HEAD
     background-color: #86BBBD;
+=======
+    background-color: #6A6B83;
+    color: black;
+>>>>>>> c065323005f029317250b3e1ff0c89ef39c12cbf
 }
 /* ----- Post Block Ends ----- */
 
@@ -156,7 +170,12 @@ nav a:hover {
     border: none;
 }
 .article-btn button:hover{
+<<<<<<< HEAD
     background-color:#86BBBD;
+=======
+    background-color:#6A6B83;
+    color: black;
+>>>>>>> c065323005f029317250b3e1ff0c89ef39c12cbf
 }
 .article-btn button i{
     margin-right: 10px;
@@ -238,7 +257,7 @@ nav a:hover {
  .aside-right section{
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      padding: 10px 20px;
-     margin: 20px;
+     margin: 20px 40px 20px 10px ;
      text-align: center;
      border-radius: 5px;
  }
@@ -254,6 +273,7 @@ nav a:hover {
  }
  .btn-info:hover{
      background-color: #6A6B83;
+     color: black;
  }
  .friends-btn{
     display: flex;
@@ -319,7 +339,7 @@ nav a:hover {
 .aside-left section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px 10px;
-    margin: 20px;
+    margin: 20px 10px 20px 40px;
     text-align: left;
     border-radius: 5px;
     margin-bottom: 0;
@@ -408,17 +428,27 @@ nav a:hover {
 
 .my-groups div:hover {
     background-color: #6A6B83;
-    color: white;
+
+}
+.my-groups a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .my-events div:hover {
     background-color: #6A6B83;
-    color: white;
+}
+.my-events a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .blue-bar:hover {
     background-color: #6A6B83;
-    color: white;
+}
+.blue-bar a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .my-groups a,
@@ -439,7 +469,6 @@ nav a:hover {
 .my-photos {
     display: flex;
     align-content: center;
-    /*box-sizing: border-box;*/
 }
 
 .interests ul {
@@ -506,9 +535,10 @@ nav a:hover {
 }
 
 
-@media screen and (max-width:414px){
+@media screen and (max-width:600px){
     .container{
         display: block;
+        
     } 
     .wrapper-main{
         margin:30px;
@@ -547,11 +577,27 @@ nav a:hover {
     }
     .aside-right  {
     width: 100%;
+    /* margin: 10px; */
     } 
+
 }
 
 
 @media only screen and (max-width: 768px) and (min-width: 415px) {
+=======
+    .aside-right section{
+        margin: 20px;
+        flex-basis: 25%;
+    }
+    .aside-left section{
+        margin: 20px ;
+        flex-basis: 25%;
+       
+    }
+}
+
+@media only screen and  (max-width: 768px) and (min-width: 601px) {
+
 
     .aside-right {
         display: inline-block;
@@ -580,21 +626,4 @@ nav a:hover {
    .article-post button{
        margin-left: 0;
    }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
