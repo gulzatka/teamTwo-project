@@ -27,31 +27,27 @@ nav a {
 }
 
 nav a:hover {
-     background-color: #5F506B;
+     background-color: #6A6B83;
      color: black;
 
 }
-
-.team {
+ .team {
      background-color: #6A6B83;
      color: white;
      font-size: 18px;
-}
+ }
 
 .team i{
      color: white;
      margin: 0;
-}
- 
-.team i:hover {
+ }
+ .team i:hover{
     background-color: #76949F;
     color: black;
-}
-
-.team:hover{
+ }
+ .team:hover{
     background-color: #76949F;
  }
-
 .container { 
     margin-top: 50px;
     display: flex;
@@ -64,10 +60,6 @@ nav a:hover {
 /* Post-block */
 
 .wrapper-main .article-post{
-
-    /* border: 2px solid brown; */
-    margin-top: 24px;
-    padding: 10px 0;
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 15px;
@@ -86,7 +78,7 @@ nav a:hover {
 }
 .article-post button{
     padding: 10px;
-    background-color: #6A6B83;
+    background-color: #86BBBD;
     color: white;
     border: none;
     margin-top: 10px;
@@ -96,12 +88,8 @@ nav a:hover {
     margin-right: 10px;
 }
 .article-post button:hover{
-<<<<<<< HEAD
-    background-color: #86BBBD;
-=======
     background-color: #6A6B83;
     color: black;
->>>>>>> c065323005f029317250b3e1ff0c89ef39c12cbf
 }
 /* ----- Post Block Ends ----- */
 
@@ -165,17 +153,13 @@ nav a:hover {
 }
 .article-btn button{
     padding: 10px;
-    background-color: #6A6B83;
+    background-color: #86BBBD;
     color: white;
     border: none;
 }
 .article-btn button:hover{
-<<<<<<< HEAD
-    background-color:#86BBBD;
-=======
     background-color:#6A6B83;
     color: black;
->>>>>>> c065323005f029317250b3e1ff0c89ef39c12cbf
 }
 .article-btn button i{
     margin-right: 10px;
@@ -226,20 +210,27 @@ nav a:hover {
     text-align: center;
     padding: 10px;
     border: 2px solid #6A6B83;
-    
+    color: rgb(98, 160, 157);
 }
-.html5{
+
+.html5 i{
     color: rgb(255, 140, 0);
 }
-.alt{
+.alt i{
     color: rgb(7, 177, 7);
 }
-.js{
+.js i{
     color: red;
 }
-.react{
+.react i{
     color: rgb(198, 34, 198);
 }
+
+.article-language ul li:hover{
+    color: white;
+    background-color: #86BBBD;
+}
+
 .article-language ul li:hover{
     color: white;
     background-color: #86BBBD;
@@ -579,12 +570,6 @@ nav a:hover {
     width: 100%;
     /* margin: 10px; */
     } 
-
-}
-
-
-@media only screen and (max-width: 768px) and (min-width: 415px) {
-=======
     .aside-right section{
         margin: 20px;
         flex-basis: 25%;
@@ -597,7 +582,6 @@ nav a:hover {
 }
 
 @media only screen and  (max-width: 768px) and (min-width: 601px) {
-
 
     .aside-right {
         display: inline-block;
