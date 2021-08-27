@@ -28,7 +28,8 @@ nav a {
 
 nav a:hover {
      background-color: #6A6B83;
-     color: white;
+     color: black;
+
 }
  .team {
      background-color: #6A6B83;
@@ -39,6 +40,10 @@ nav a:hover {
 .team i{
      color: white;
      margin: 0;
+ }
+ .team i:hover{
+    background-color: #76949F;
+    color: black;
  }
  .team:hover{
     background-color: #76949F;
@@ -88,6 +93,7 @@ nav a:hover {
 }
 .article-post button:hover{
     background-color: #6A6B83;
+    color: black;
 }
 /* ----- Post Block Ends ----- */
 
@@ -157,6 +163,7 @@ nav a:hover {
 }
 .article-btn button:hover{
     background-color:#6A6B83;
+    color: black;
 }
 .article-btn button i{
     margin-right: 10px;
@@ -226,7 +233,7 @@ nav a:hover {
  .aside-right section{
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      padding: 10px 20px;
-     margin: 20px;
+     margin: 20px 40px 20px 10px ;
      text-align: center;
      border-radius: 5px;
  }
@@ -242,6 +249,7 @@ nav a:hover {
  }
  .btn-info:hover{
      background-color: #6A6B83;
+     color: black;
  }
  .friends-btn{
     display: flex;
@@ -307,7 +315,7 @@ nav a:hover {
 .aside-left section {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10px 10px;
-    margin: 20px;
+    margin: 20px 10px 20px 40px;
     text-align: left;
     border-radius: 5px;
     margin-bottom: 0;
@@ -396,17 +404,27 @@ nav a:hover {
 
 .my-groups div:hover {
     background-color: #6A6B83;
-    color: white;
+
+}
+.my-groups a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .my-events div:hover {
     background-color: #6A6B83;
-    color: white;
+}
+.my-events a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .blue-bar:hover {
     background-color: #6A6B83;
-    color: white;
+}
+.blue-bar a:hover{
+    background-color: #6A6B83;
+    color: black;
 }
 
 .my-groups a,
@@ -427,7 +445,6 @@ nav a:hover {
 .my-photos {
     display: flex;
     align-content: center;
-    /*box-sizing: border-box;*/
 }
 
 .interests ul {
@@ -494,9 +511,10 @@ nav a:hover {
 }
 
 
-@media screen and (max-width:414px){
+@media screen and (max-width:600px){
     .container{
         display: block;
+        
     } 
     .wrapper-main{
         margin:30px;
@@ -535,62 +553,20 @@ nav a:hover {
     }
     .aside-right  {
     width: 100%;
+    /* margin: 10px; */
     } 
-}
-
-@media (max-width:768px) and (min-width:415px) {
-
-
-@media only screen and (max-width: 414px) {
-     .container {
-         display: block;
-     }  
-
-     .photos{
-         display: block;
-         padding: 10px;
-     }
-
-     .photos img{
-         width: 90%;
-         margin-left: 10px;
-     }
-
-     #section-interests{
-         display: none;
-     }
-
-     #section-hey{
-         display: none;
-     }
-
-    .article-one{
-        width: 95%;
+    .aside-right section{
+        margin: 20px;
+        flex-basis: 25%;
     }
-
-    .post {
-        width: 90%;
-    }
-
-    .post input{
-        width: 90%;
-    }
-
-    .article-image img{
-        width: 90%;
-        margin-left: 15px;  
-    }
-
-    #article-none{
-        display: none;
-    }
-
-    .aside-right  {
-        width: 100%;
+    .aside-left section{
+        margin: 20px ;
+        flex-basis: 25%;
+       
     }
 }
 
-@media only (max-width: 768px) and (min-width: 415px) {
+@media only screen and  (max-width: 768px) and (min-width: 601px) {
 
     .aside-right {
         display: inline-block;
@@ -619,21 +595,4 @@ nav a:hover {
    .article-post button{
        margin-left: 0;
    }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
