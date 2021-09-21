@@ -4,7 +4,7 @@
 }
 body{
   display: flex;
-  
+
 }
 .wrapper {
   width: calc(50vh + 20px);
@@ -16,13 +16,13 @@ body{
   overflow: hidden;
   position: relative;
 }
-​
+
 table {
   height: 50vh;
   width: 50vh;
   margin: 15px 0;
 }
-​
+
 td {
   background-color: lightgreen;
   width: calc(100% / 3);
@@ -32,7 +32,7 @@ td {
   color: black;
   cursor: pointer;
 }
-​
+
 .restart {
   width: 50px;
   height: 20px;
@@ -41,7 +41,7 @@ td {
   font-weight: bold;
   cursor: pointer;
 }
-​
+
 .winner-sign {
   position: absolute;
   height: 50px;
