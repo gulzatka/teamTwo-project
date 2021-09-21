@@ -5,6 +5,7 @@ import _ from "lodash";
 
 // Develop below this line
 
+
 var theTile;
 var gameOver = false;
 var currentPlayer = "X";
@@ -110,11 +111,11 @@ function displayStep(theTile){
   // let olStep=  document.createElement('ol');
   let list = document.createElement('li');
   let link = document.createElement("a");
-   let output = document.querySelector("#displayStep") ;
-   output.appendChild(list);
-   list.appendChild(link);
-   let outText = currentPlayer + " played at "+ " row "+ tileRow + " column " + tileCol;
-   let text = document.createTextNode(outText);
-   list.appendChild(text);
+  let output = document.querySelector("#displayStep") ;
+  output.appendChild(list);
+  list.appendChild(link);
+  let outText = currentPlayer + " played at "+ " row "+ tileRow + " column " + tileCol;
+  let text = document.createTextNode(outText);
+  list.appendChild(text);
 
 }
