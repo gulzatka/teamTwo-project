@@ -1,11 +1,8 @@
 import "./index.html";
 import "./main.css";
-
 import _ from "lodash";
 
 // Develop below this line
-
-
 var theTile;
 var gameOver = false;
 var currentPlayer = "X";
@@ -17,20 +14,16 @@ var tileMatrix = [
 ];
 
 document.querySelector(".restart").addEventListener("click", clearTiles);
-
 document.addEventListener("click", clickTile);
 
-
 // function declaration below
-
 function clearTiles() {
   var arrayOfTD = document.querySelectorAll("td");
   let listStep = document.querySelector("ol")
   for (let i = 0; i < arrayOfTD.length; i++) {
     arrayOfTD[i].innerHTML = "";
-
   }
-    listStep.innerHTML = "";
+  listStep.innerHTML = "";
   document.querySelector(".winner-sign").style.top = "-50px";
 
   gameOver = false;
@@ -41,7 +34,7 @@ function clearTiles() {
     [0, 0, 0],
   ];
 }
-
+let idCounter = 1;
 function clickTile(event) {
   if (
     event.target.nodeName === "TD" &&
@@ -49,14 +42,13 @@ function clickTile(event) {
     !gameOver
   ){
     theTile = event.target;
-    console.log(theTile)
+    theTile.id = idCounter;
+    idCounter++;
     drawOnTile(theTile);
-    displayStep(theTile)
-
+    displayStep(theTile);
   } else {
     return;
   }
-
 }
 
 function drawOnTile(tile) {
@@ -104,18 +96,42 @@ function checkWinner(tileRow, tileCol) {
 
   return rowWin || colWin || leftToRightDiagWin || rightToLeftDiagWin;
 }
-// Team 2 Start
+
 function displayStep(theTile){
   var tileRow = theTile.className[0];
   var tileCol = theTile.className[1];
-  // let olStep=  document.createElement('ol');
+  let olStep = document.createElement('ol');
   let list = document.createElement('li');
+  theTile = event.target;
+  let cellId = event.target.id;
+  list.id = cellId;
   let link = document.createElement("a");
-  let output = document.querySelector("#displayStep") ;
+  link.setAttribute('href', '#');
+  let output = document.querySelector("#displayStep");
   output.appendChild(list);
-  list.appendChild(link);
   let outText = currentPlayer + " played at "+ " row "+ tileRow + " column " + tileCol;
   let text = document.createTextNode(outText);
+  // link.appendChild(text);
   list.appendChild(text);
-
 }
+
+document.getElementById("displayStep").addEventListener("click", function(e) {
+	// e.target is the clicked element!
+	// If it was a list item
+	if(e.target && e.target.nodeName === "LI") {
+    let list = document.querySelectorAll('li');
+		let index = Array.from(list).indexOf(e.target);
+    let cells = document.querySelectorAll('td');
+
+    for(let i = index; i < list.length; i++) {
+      console.log("li ID :", list[i].id);
+      console.log("td ID :", cells[i].id);
+      // if (list[i].id === cells[i].id) {
+      //
+      //
+      //   document.querySelectorAll('li')[i].remove();
+      //   document.querySelectorAll('td')[i].innerHTML = "";
+      // }
+    }
+	}
+});
