@@ -103,6 +103,8 @@ function displayStep(theTile){
   let olStep = document.createElement('ol');
   let list = document.createElement('li');
   let link = document.createElement("a");
+  theTile = event.target;
+  turnList.push(theTile);
   link.setAttribute('href', '#');
   let output = document.querySelector("#displayStep");
   output.appendChild(list);
@@ -118,12 +120,14 @@ document.getElementById("displayStep").addEventListener("click", function(e) {
 	if(e.target && e.target.nodeName === "LI") {
     let list = document.querySelectorAll('li');
 		let index = Array.from(list).indexOf(e.target);
-    turnList = turnList.slice(index + 1);
-    console.log(turnList);
+
     let cells = document.querySelectorAll('td');
-    for (let j = 0; j < turnList.length; j++) {
+    for (let j = index + 1; j < turnList.length; j++) {
       let targetId = Array.from(document.querySelectorAll('td')).indexOf(turnList[j]);
       document.querySelectorAll('td')[targetId].innerText = "";
     }
+
+    turnList.splice(index + 1);
+    console.log(turnList);
 	}
 });
